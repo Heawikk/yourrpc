@@ -59,7 +59,7 @@ def delete_status():
 def main_menu():
     os.system('cls')
     while True:
-        print("YourRPC 1.0.0\n\n1) Set Status\n2) Remove Status\n3) Exit")
+        print("YourRPC 1.0.1\n\n1) Set Status\n2) Remove Status\n3) Exit")
         choice = input()
         
         if choice == '1':
